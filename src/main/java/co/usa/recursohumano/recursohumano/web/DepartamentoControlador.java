@@ -19,7 +19,7 @@ import co.usa.recursohumano.recursohumano.model.Departamento;
 import co.usa.recursohumano.recursohumano.service.DepartamentoServicio;
 
 @RestController
-@RequestMapping("api/departamento")
+@RequestMapping("api/Departamento")
 @CrossOrigin(origins = "*",methods = {RequestMethod.GET,RequestMethod.POST,RequestMethod.DELETE,RequestMethod.PUT})
 
 public class DepartamentoControlador {
